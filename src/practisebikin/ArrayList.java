@@ -15,5 +15,6 @@ public class ArrayList
         employeeList.add(new Employee("Mike", "Wilson", 3245));
 
         System.out.println(employeeList.get(0));
+
     }
 }
