@@ -2,9 +2,24 @@ package practise_Sheng_2;
 import  lists.classes.Employee;
 import java.util.ArrayList;
 import java.util.List;
-
+import practise_1.Book;
 public class Java_2 {
     public static void main(String[] args) {
+        List<Book> books =new ArrayList();
+        books.add(new Book("B1","Bname",333));
+        System.out.println(books);
+
+
+
+
+
+
+
+
+
+
+
+
         System.out.println("Hello world!again");
         List<Employee> employeeList = new ArrayList();
         employeeList.add(new Employee("Sheng","zhao",777));
@@ -16,7 +31,10 @@ public class Java_2 {
         System.out.println(employeeList.contains(new Employee("Mary","Smith",22)));
         System.out.println(employeeList.indexOf(new Employee("Mary", "Smith", 22)));
 
+        employeeList.forEach(employee ->{ System.out.println(employee.toString());});
+        System.out.println(("next"));
         employeeList.forEach(employee ->{ System.out.println(employee);});
+
 
         employeeList.remove(1);
         employeeList.remove(0);
