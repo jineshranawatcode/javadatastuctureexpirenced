@@ -10,8 +10,12 @@ public class Java_2 {
         employeeList.add(new Employee("Sheng","zhao",777));
         employeeList.add(new Employee("leo","z",888));
         employeeList.forEach(employee ->{ System.out.println(employee);});
-        System.out.println(employeeList);
+        employeeList.remove(1);
+        employeeList.remove(0);
 
+
+        System.out.println(employeeList);
+        //should print nothing now
         List<String> play = new ArrayList();
         play.add("first");
         play.add("second");
