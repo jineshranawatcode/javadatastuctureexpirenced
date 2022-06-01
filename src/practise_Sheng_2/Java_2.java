@@ -18,13 +18,13 @@ public class Java_2 {
         play.add("last");
         System.out.println((play));
 
-        int x = Integer.parseInt(args[0]);
-        int y = Integer.parseInt(args[1]);
-        int z = Integer.parseInt(args[2]);
+        String x = args[0];
+        String y = args[1];
+        String z = args[2];
 
-        int sum = x + y + z;
+        String sum = x + y + z;
         System.out.println((sum));
-        //4+5+6=15
+        //pring hello w ! now
 
     }
 
