@@ -10,6 +10,13 @@ public class Java_2 {
         employeeList.add(new Employee("Sheng","zhao",777));
         employeeList.add(new Employee("leo","z",888));
         employeeList.forEach(employee ->{ System.out.println(employee);});
+        System.out.println(employeeList);
+
+        List<String> play = new ArrayList();
+        play.add("first");
+        play.add("second");
+        play.add("last");
+        System.out.println((play));
 
     }
 
