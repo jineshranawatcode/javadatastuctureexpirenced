@@ -9,9 +9,18 @@ public class Java_2 {
         List<Employee> employeeList = new ArrayList();
         employeeList.add(new Employee("Sheng","zhao",777));
         employeeList.add(new Employee("leo","z",888));
+        employeeList.add(new Employee("Jane", "Jones", 123));
+        employeeList.add(new Employee("John", "Doe", 4567));
+        employeeList.add(new Employee("Mary", "Smith", 22));
+        employeeList.add(new Employee("Mike", "Wilson", 3245));
+        System.out.println(employeeList.contains(new Employee("Mary","Smith",22)));
+        System.out.println(employeeList.indexOf(new Employee("Mary", "Smith", 22)));
+
         employeeList.forEach(employee ->{ System.out.println(employee);});
+
         employeeList.remove(1);
         employeeList.remove(0);
+
 
 
         System.out.println(employeeList);
