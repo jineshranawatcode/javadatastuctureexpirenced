@@ -22,5 +22,9 @@ public class AList
 
         employeeList.remove(2);
         employeeList.forEach(System.out::println);
+
+
+
+
     }
 }
