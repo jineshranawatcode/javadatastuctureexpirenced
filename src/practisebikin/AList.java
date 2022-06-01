@@ -5,7 +5,7 @@ import lists.classes.Employee;
 
 import java.util.List;
 
-public class ArrayList
+public class AList
 {
     public static void main(String[] args) {
         List<Employee> employeeList = new java.util.ArrayList();
