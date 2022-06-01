@@ -19,6 +19,8 @@ public class ArrayListMain {
 		employeeList.add(new Employee("John", "Doe", 4567));
 		employeeList.add(new Employee("Mary", "Smith", 22));
 		employeeList.add(new Employee("Mike", "Wilson", 3245));
+		employeeList.add(new Employee("Sheng","zhao",777));
+		employeeList.add(new Employee("leo","z",888));
 
 		System.out.println(employeeList.get(1));
 		System.out.println(employeeList.isEmpty());
