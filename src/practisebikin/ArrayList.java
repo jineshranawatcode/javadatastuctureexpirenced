@@ -16,5 +16,10 @@ public class ArrayList
 
         System.out.println(employeeList.get(0));
 
+        System.out.println(employeeList.contains(new Employee("Mary","Smith", 22)));
+        System.out.println(employeeList.indexOf(new Employee("Mary","Smith", 22)));
+
+        employeeList.remove(2);
+        employeeList.forEach(employee -> System.out.println(employee));
     }
 }
